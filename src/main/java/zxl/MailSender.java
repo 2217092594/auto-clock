@@ -13,15 +13,15 @@ import java.util.Properties;
 public class MailSender {
     Properties properties;
     String smtpHost = "smtp.qq.com";//smtp服务，一般为smtp.163.com  smtp.qq.com
-    String sendMail = "2642621154@qq.com";//发件人邮箱地址 一般为smtp对应
+    String sendMail = "xxx";//发件人邮箱地址 一般为smtp对应
     String sendNickname = "zxl";
 //    String receiveNickname = "zxm";
-//    String receiveMail = "2963096075@qq.com";//接收人邮箱地址，可以是任意的合法邮箱即可
+//    String receiveMail = "xxx";//接收人邮箱地址，可以是任意的合法邮箱即可
 //    String mailSubject = "test";//创建的邮件主题
 //    String mailContent = "this is a test!!!";//创建邮件的内容，可以添加html标签
     Date sentDate = null;//设置发送时间，null为立即发送
-    String authUserName = "2642621154@qq.com";//验证服务器是的用户名，一般和发件人邮箱保持一致
-    String authPassword = "cwutoeuxvlmnecjd";//验证服务器的密码，一般为登录邮箱的密码，也可能是邮箱独立密码
+    String authUserName = "xxx";//验证服务器是的用户名，一般和发件人邮箱保持一致
+    String authPassword = "填写你的邮箱授权码或验证码";//验证服务器的密码，一般为登录邮箱的密码，也可能是邮箱独立密码
     final String SSL_FACTORY = "javax.net.ssl.SSLSocketFactory";
 
     public  void  sendScMail(String receiveMail,String receiveNickname) throws MessagingException, UnsupportedEncodingException {
