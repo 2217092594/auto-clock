@@ -1,0 +1,22 @@
+{
+  "id": "61eeae0930d9a8ed58dbb998",
+  "member_id": "613081c6d510782a4a05ae04",
+  "feedback_text": "",
+  "file_type": "any",
+  "files": [
+    {
+      "origin_name": "健康吗.jpg",
+      "cate": "img",
+      "size": 227094,
+      "new_name": "app_image_613081c6d510782a4a05ae04/52e5a923b750d8a89baf3650fe457f29_1644652871362.jpg",
+      "duration": 0
+    }
+  ],
+  "form_id": "",
+  "networkType": "WiFi",
+  "daka_day": "2022-02-11",
+  "examdetail": "",
+  "sub_info": [],
+  "op": "add",
+  "submit_type": "submit"
+}
